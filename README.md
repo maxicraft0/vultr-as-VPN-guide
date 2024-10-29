@@ -162,7 +162,7 @@ sudo ufw allow 21212
 
 页面左上角点开'服务器'下拉菜单，添加Vmess服务器。
 
-![alt text](img/v2ray.png)
+![alt text](img/v2ray1.png)
 
 在以下页面中输入服务器ip地址，端口，用户ID（要和服务器config.json配置的ID相一致）。
 
