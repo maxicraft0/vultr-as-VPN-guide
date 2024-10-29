@@ -132,4 +132,15 @@ start v2ray service：<br>
 ```
 sudo systemctl restart v2ray
 ```
+v2ray服务器正常启动后，可以通过netstat命令看到对应的网络端口状态：<br>
+After the v2ray server starts normally, you see the corresponding network port status through the command:
+```
+netstat -a 
+```
+![alt text](img/netstat-a.png)<br>
+有些情况下端口受防火墙保护，需要通过以下命令放行端口:<br>
+In some cases, the port is protected by a firewall and you need to open the port using the following command:<br>
+```
+sudo ufw allow 21212
+```
 ## Step 7:  VPN客户端<br> using the VPN client 
