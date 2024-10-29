@@ -152,3 +152,26 @@ sudo ufw allow 21212
 
 [返回目录](#简明教程如何使用vultr平台搭建vpn服务器)
 ## Step 7: VPN客户端
+可选择V2RayN作为VPN客户端：[V2RayN Releases](https://github.com/2dust/v2rayN/releases)
+
+也可选择其他支持Vmess协议的VPN软件。
+
+找到v2rayN-windows-64-With-Core.zip，下载解压后，运行v2rayN.exe。
+
+![alt text](img/release.png)
+
+页面左上角点开'服务器'下拉菜单，添加Vmess服务器。
+
+![alt text](img/v2ray.png)
+
+在以下页面中输入服务器ip地址，端口，用户ID（要和服务器config.json配置的ID相一致）。
+
+![alt text](img/v2rayn.PNG)
+
+添加完成后，右击节点，测试其连通性和速度。
+
+![alt text](img/test.png)
+
+如果一切顺利，点击页面下方的系统代理，选择'自动配置系统代理'.
+
+[返回目录](#简明教程如何使用vultr平台搭建vpn服务器)
