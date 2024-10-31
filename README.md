@@ -149,6 +149,10 @@ netstat -a
 ```
 sudo ufw allow 21212
 ```
+或者关闭ufw：
+```
+sudo ufw disable
+```
 
 [返回目录](#简明教程如何使用vultr平台搭建vpn服务器)
 ## Step 7: VPN客户端
